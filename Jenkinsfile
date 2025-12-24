@@ -1,13 +1,10 @@
+
 // pipeline {
-//     agent {
-//         node{
-//             label 'AGENT-1'
-//         }
-//     }
+//     agent any
 //     stages {
 //         stage('Build') {
 //             steps {
-//                echo "start building"
+//                 echo "start building"
 //             }
 //         }
 //         stage('Test') {
@@ -24,11 +21,15 @@
 // }
 
 pipeline {
-    agent any
+    agent {
+        node{
+            label 'AGENT-1'
+        }
+    }
     stages {
         stage('Build') {
             steps {
-                echo "start building"
+               echo "start building"
             }
         }
         stage('Test') {
