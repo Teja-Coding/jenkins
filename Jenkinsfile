@@ -34,12 +34,17 @@ pipeline {
             steps {
                echo "start building"
                echo " $COURSE "
-               ech " $env "
             }
         }
         stage('Test') {
             steps {
-                echo "start testing"
+                script{
+                    sh """ 
+                        echo "testing from here"
+                        echo "here is learing course $COURSE"
+                        env
+                    """
+                }
             }
         }
         stage('Deploy') {
