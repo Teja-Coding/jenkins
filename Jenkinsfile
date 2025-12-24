@@ -45,6 +45,7 @@ pipeline {
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
     }
     stages {
+        //this is build event 
         stage('Build') {
             steps {
                echo "start building"
