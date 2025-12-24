@@ -34,6 +34,7 @@ pipeline {
             steps {
                echo "start building"
                echo " $COURSE "
+               ech " $env "
             }
         }
         stage('Test') {
