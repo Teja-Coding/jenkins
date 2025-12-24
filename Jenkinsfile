@@ -76,20 +76,15 @@ pipeline {
 
         stage('Test') {
             steps {
-                // Scripted part (runtime logic)
-                script {
-                    sh 'echo "Testing"'
-                }
+                echo "start testing"
             }
         }
 
         stage('Deploy') {
             steps {
-                // Scripted part (runtime logic)
                 script {
-                    sh 'echo "deploying"'
+                    echo "start deploying"
                 }
-            }
             }
         }
     }
