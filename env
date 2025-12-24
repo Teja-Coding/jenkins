@@ -1,0 +1,65 @@
+SHELL=/bin/bash
+RUN_TESTS_DISPLAY_URL=http://98.92.167.202:8080/job/hello-world-pipeline/11/display/redirect?page=tests
+COURSE=jenkins
+HISTSIZE=10000
+JENKINS_SERVER_COOKIE=durable-6d63181ced3a16dd44017dd2563127191c2aa9f6f9e9c8e21ddcc1dce7d44075
+HISTTIMEFORMAT=%d/%m/%y %T 
+AWS_DEFAULT_REGION=us-east-1
+RUN_CHANGES_DISPLAY_URL=http://98.92.167.202:8080/job/hello-world-pipeline/11/display/redirect?page=changes
+HUDSON_HOME=/var/lib/jenkins
+PWD=/home/ec2-user/jenkins/workspace/hello-world-pipeline
+LOGNAME=ec2-user
+XDG_SESSION_TYPE=tty
+BUILD_URL=http://98.92.167.202:8080/job/hello-world-pipeline/11/
+ANSIBLE_DEPRECATION_WARNINGS=False
+JOB_URL=http://98.92.167.202:8080/job/hello-world-pipeline/
+BUILD_NUMBER=11
+MOTD_SHOWN=pam
+JENKINS_NODE_COOKIE=e89fd94b-9902-4220-ac2b-b2cbaf8c2688
+BUILD_DISPLAY_NAME=#11
+HOME=/home/ec2-user
+LANG=C.UTF-8
+ANSIBLE_FORCE_COLOR=1
+JENKINS_URL=http://98.92.167.202:8080/
+JOB_BASE_NAME=hello-world-pipeline
+PROMPT_COMMAND=$(history -w)
+JOB_NAME=hello-world-pipeline
+RUN_DISPLAY_URL=http://98.92.167.202:8080/job/hello-world-pipeline/11/display/redirect
+SSH_CONNECTION=172.31.8.245 40382 172.31.2.199 22
+JOB_DISPLAY_URL=http://98.92.167.202:8080/job/hello-world-pipeline/display/redirect
+WORKSPACE=/home/ec2-user/jenkins/workspace/hello-world-pipeline
+HUDSON_URL=http://98.92.167.202:8080/
+XDG_SESSION_CLASS=user
+NODE_NAME=AGENT-1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+USER=ec2-user
+HUDSON_SERVER_COOKIE=94b5f6a4b79a94f5
+GIT_URL=https://github.com/Teja-Coding/jenkins.git
+SHLVL=2
+BUILD_TAG=jenkins-hello-world-pipeline-11
+EXECUTOR_NUMBER=0
+HUDSON_COOKIE=5b37b4a7-3ed8-4814-8574-ca064fa4ec09
+SYSTEMD_PAGER=cat
+XDG_SESSION_ID=6
+JENKINS_HOME=/var/lib/jenkins
+XDG_RUNTIME_DIR=/run/user/1001
+SSH_CLIENT=172.31.8.245 40382 22
+REQUESTS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+GIT_COMMIT=400b520c14a9891822cccfe08acb2068d9848221
+which_declare=declare -f
+NODE_LABELS=AGENT-1
+STAGE_NAME=Test
+AWS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+WORKSPACE_TMP=/home/ec2-user/jenkins/workspace/hello-world-pipeline@tmp
+XDG_DATA_DIRS=/home/ec2-user/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+RUN_ARTIFACTS_DISPLAY_URL=http://98.92.167.202:8080/job/hello-world-pipeline/11/display/redirect?page=artifacts
+CI=true
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+GIT_BRANCH=origin/main
+BUILD_ID=11
+OLDPWD=/home/ec2-user
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+_=/usr/bin/env
